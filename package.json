@@ -1,0 +1,40 @@
+{
+  "name": "speak-precisely-sdk",
+  "version": "1.0.0",
+  "description": "Real-time speech transcription and translation SDK",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "unpkg": "dist/speak-precisely.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "type-check": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "speech",
+    "transcription",
+    "translation",
+    "real-time",
+    "websocket"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.20.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^5.0.0",
+    "tslib": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/speak-precisely-sdk"
+  }
+}

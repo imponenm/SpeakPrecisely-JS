@@ -1,4 +1,3 @@
-// README.md
 # SpeakPrecisely SDK
 
 Real-time speech transcription and translation SDK.
