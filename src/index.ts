@@ -24,7 +24,7 @@ export enum TranscriptionEvents {
     private mediaRecorder: MediaRecorder | null = null;
     private stream: MediaStream | null = null;
     private eventHandlers: Map<TranscriptionEvents, Set<Function>> = new Map();
-    private readonly baseUrl = 'wss://dg.speakprecisely.com/subtitles';
+    private readonly baseUrl = 'wss://prod.speakprecisely.com/subtitles';
   
     constructor(private readonly publicKey: string) {
       // Initialize event handler sets for each event type
