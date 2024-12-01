@@ -18,7 +18,7 @@ class SpeakPrecisely {
         this.mediaRecorder = null;
         this.stream = null;
         this.eventHandlers = new Map();
-        this.baseUrl = 'wss://dg.speakprecisely.com/subtitles';
+        this.baseUrl = 'wss://prod.speakprecisely.com/subtitles';
         // Initialize event handler sets for each event type
         Object.values(exports.TranscriptionEvents).forEach(event => {
             this.eventHandlers.set(event, new Set());
