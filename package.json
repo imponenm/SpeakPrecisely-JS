@@ -1,6 +1,6 @@
 {
   "name": "speak-precisely-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real-time speech transcription and translation SDK",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
