@@ -1,8 +1,8 @@
 # SpeakPrecisely SDK
 
-A websocket API for real-time transcription + translation. It's very fast, very accurate, and very easy to use.
+A Javascript SDK for connecting to the Speak Precisely Websocket API.
 
-Just call the `start()` function, then specify the speaker's language, and any other languages you want the transcript translated to.
+This API is for real-time transcription + translation. It's very fast, very accurate, and very easy to use. Just specify the speaker's language and the translation languages, then call the `start()` function.
 
 The original transcript and all the translations are returned as the speaker talks. Latency has generally been <500ms from initial testing.
 
