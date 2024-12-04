@@ -1,6 +1,10 @@
 # SpeakPrecisely SDK
 
-Real-time speech transcription and translation SDK.
+Real-time speech transcription and translation Javscript SDK.
+
+### iOS, Android, and Websockets
+
+If you'd like to implement on iOS, Android, or directly via websocket, please view our [API reference](https://docs.speakprecisely.com/docs/transcribe) instead.
 
 ## Installation
 
