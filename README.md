@@ -58,6 +58,19 @@ await client.start({
 </script>
 ```
 
+## Example Response
+```json
+{
+  "type": "Results",
+  "spokenLanguage": "Hello, how are you today?",
+  "targetLanguages": {
+    "es": "Hola, ¿cómo estás hoy?",
+    "fr": "Bonjour, comment allez-vous aujourd'hui?",
+    "de": "Hallo, wie geht es dir heute?"
+  }
+}
+```
+
 ## API Reference
 
 ### `new SpeakPrecisely(publicKey: string)`
