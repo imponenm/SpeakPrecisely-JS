@@ -12,6 +12,10 @@ You'll need to create an account on the [Speak Precisely Dashboard](https://dash
 
 If you'd like to implement on iOS, Android, or directly via websocket, please view our [API reference](https://docs.speakprecisely.com/docs/transcribe) instead.
 
+## Supported languages
+
+Please take a look at our docs page for [supported languages and language codes](https://docs.speakprecisely.com/docs/languages).
+
 ## Installation
 
 ### NPM
