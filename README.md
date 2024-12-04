@@ -1,6 +1,12 @@
 # SpeakPrecisely SDK
 
-Real-time speech transcription and translation Javscript SDK.
+A websocket API for real-time transcription + translation. It's very fast, very accurate, and very easy to use.
+
+Just call the `start()` function, then specify the speaker's language, and any other languages you want the transcript translated to.
+
+The original transcript and all the translations are returned as the speaker talks. Latency has generally been <500ms from initial testing.
+
+You'll need to create an account on the [Speak Precisely Dashboard](https://dashboard.speakprecisely.com) to get a public key for use with the API. In the future, we will also be supporting OAuth token validation for a wide range of identity providers.
 
 ### iOS, Android, and Websockets
 
